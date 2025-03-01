@@ -122,6 +122,19 @@ Java  Netty mina
 
 有关 CMake 使用详见👉[shayudiandian/Linux-CPP-development-environment: Linux C/C++ 开发环境教程](https://github.com/shayudiandian/Linux-CPP-development-environment)
 
+## 测试
+
+```shell
+cd ThreadPool-cpp
+mkdir build
+cd build
+
+cmake ..
+make
+
+./bin/test
+```
+
 
 
 ## 使用示例
